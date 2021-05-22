@@ -1,70 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PinPoint Mouse Enchancer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Awin">
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <style type="text/css">
     body {
-        font-family: "Space Mono", Arial, serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.7;
-        background: #232325;
-        color: white;
         display: flex;
         align-content: center;
     }
 
-    main {
-        width: 400px;
-        margin: auto;
-    }
-
-    h1 {
-        font-weight: 300;
-        font-size: 40px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 40px;
-    }
 
     input[type=email], textarea {
-        font-family: "Space Mono", Arial, serif;
         font-size: 16px;
         height: 54px;
-        width: 400px;
+        width: 500px;
         min-height: 30px;
         min-width: 100px;
         margin-right: -5px;
-        padding: 0 10px;
+        padding: 0 20px;
         background: rgba(255, 255, 255, 0.2);
-        color: rgba(255, 255, 255, 0.5);
-        border: transparent;
+        border: 1px solid black;
         border-radius: 30px;
     }
 
     textarea {
         margin-top: 20px;
-        padding: 10px;
+        padding: 20px;
         height: 200px;
         min-height: 30px;
         min-width: 100px;
     }
 
     @media only screen and (max-width: 600px) {
+        
         input[type=email], textarea {
-            width: 350px;
+            width: 320px;
         }
     }
 
@@ -87,8 +56,7 @@
 
 <body>
     <main>
-        <h1>PinPoint Mouse Enchancer</h1>
-        <h2>Describe your problem with as much detail as possible (version of app, version of OS)</h2>
+        <p>Describe your problem with as much detail as possible (version of app, version of OS)</p>
         <form id="support-form" action="https://formspree.io/f/xknkjppd" method="POST">
             <input type="email" name="email" placeholder="Email" required />
             <br>
@@ -124,5 +92,3 @@
         </script>
     </main>
 </body>
-
-</html>

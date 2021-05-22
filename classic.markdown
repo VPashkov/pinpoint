@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PinPoint Mouse Enhancer
-permalink: /
+permalink: /classic/
 ---
 
 [![Download from Mac App Store](images/Mac_App_Store_Badge.svg)](https://apps.apple.com/ca/app/pinpoint/id408265505){:target="_blank" rel="noopener noreferrer"}
